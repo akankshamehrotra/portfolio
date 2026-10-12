@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Akanksha Mehrotra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Akanksha Mehrotra</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Contact</span>
+    <h1 style="font-size: clamp(2rem, 5vw, 3.2rem);">Let's work together.</h1>
+    <p class="lede">Open to full-time roles, freelance projects, and long-term collaborations. Based in Winona, MN — available globally. I'd love to hear about what you're working on.</p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <span class="eyebrow">Send a Message</span>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+      </div>
+      <div class="form-group">
+        <label for="subject">What's this about?</label>
+        <select id="subject" name="subject">
+          <option value="">Select one...</option>
+          <option value="full-time">Full-time role</option>
+          <option value="freelance">Freelance project</option>
+          <option value="speaking">Speaking / collaboration</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell me a bit about what you have in mind..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Send message</button>
+    </form>
+
+    <div class="find-me">
+      <span class="eyebrow">Find Me Here</span>
+      <div class="item">
+        <label>Email</label>
+        <a href="mailto:mehrotra.akanksha@gmail.com">mehrotra.akanksha@gmail.com</a>
+      </div>
+      <div class="item">
+        <label>Phone</label>
+        <span>507-470-2283</span>
+      </div>
+      <div class="item">
+        <label>LinkedIn</label>
+        <a href="https://linkedin.com/in/akanksha-m-98879a53" target="_blank" rel="noopener">linkedin.com/in/akanksha-m-98879a53</a>
+      </div>
+      <p class="note">Based in Winona, MN &middot; Available globally &middot; Typically responds immediately.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <hr class="divider" style="margin-bottom: 40px;" />
+    <h3 class="footer-name">Akanksha Mehrotra</h3>
+    <p class="footer-tag">Words that inform. Stories that resonate.</p>
+    <div class="footer-links">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:hello@akankshamehrotra.com">hello@akankshamehrotra.com</a>
+      <span>&middot;</span>
+      <a href="https://linkedin.com/in/akanksha-m-98879a53" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Akanksha Mehrotra. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
