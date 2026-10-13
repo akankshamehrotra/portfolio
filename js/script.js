@@ -29,13 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-
-  var form = document.querySelector(".contact-form");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      alert("Thanks for reaching out! This form is not yet connected to a backend.");
-      form.reset();
-    });
-  }
 });
